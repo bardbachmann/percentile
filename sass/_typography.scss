@@ -1,0 +1,56 @@
+/*---------------
+Typography
+-----------------*/
+body{
+font-family: $secondary-font;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-family: $main-font;
+}
+
+p{
+font-family: $secondary-font;
+}
+
+bold{
+font-weight: bold;
+}
+
+italic{
+font-style: italic;
+}
+
+.header{
+color: $header-font-color;
+}
+
+.header h1, .header h2, .header h3, .header h4, .header h5, .header h6{
+margin: 0;
+}
+
+/*---------------
+Links
+-----------------*/
+
+a{
+color: $link;
+text-decoration: none;
+}
+
+a:visited{
+color: $link-visited;
+}
+
+a:hover{
+color: lighten($link, 20%);
+text-decoration: underline;
+}
+
+
+
+
+
+
+
+
